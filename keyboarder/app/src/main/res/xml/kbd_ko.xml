@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="20%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0%p" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="@integer/key_f1" android:keyEdgeFlags="left" android:isModifier="true"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="1" android:keyLabel="ㄱ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="2" android:keyLabel="ㄴ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="3" android:keyLabel="ㅏㅓ"/>
+        <Key android:codes="@integer/key_space" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+    </Row>
+    <Row>
+        <Key android:codes="@integer/key_left" android:keyEdgeFlags="left" android:isModifier="true" android:isRepeatable="true"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="4" android:keyLabel="ㄹ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="5" android:keyLabel="ㅁ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="6" android:keyLabel="ㅗㅜ"/>
+        <Key android:codes="@integer/key_right" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true"/>
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="."/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="7" android:keyLabel="ㅅ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="8" android:keyLabel="ㅇ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="9" android:keyLabel="ㅣ"/>
+        <Key android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:codes="302" android:keyLabel="획추가"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="0" android:keyLabel="ㅡ"/>
+        <Key android:codes="301" android:keyLabel="쌍자음"/>
+        <Key android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

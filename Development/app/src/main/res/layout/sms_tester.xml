@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sms_mock_title"/>
+    <TextView android:background="#ff33b5e5" android:layout_width="match_parent" android:layout_height="2dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sms_smsc_address_title"/>
+    <EditText android:id="@+id/sms_tester_mock_sms_sc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sms_default_address" android:hint="@null" android:singleLine="true"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sms_sender_address_title"/>
+    <EditText android:id="@+id/sms_tester_mock_sms_sender" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sms_default_address" android:hint="@null" android:singleLine="true"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sms_message_title"/>
+    <EditText android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/sms_tester_mock_sms_msg" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sms_default_msg" android:hint="@null" android:lines="10" android:minLines="10" android:singleLine="false"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/sms_tester_mock_sms_send_msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sms_send_msg" android:layout_weight="1"/>
+        <Button android:id="@+id/sms_tester_mock_sms_send_pdu" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sms_send_pdu" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

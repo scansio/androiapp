@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="prediction_modes">
+        <item>Brak</item>
+        <item>Podstawowy</item>
+        <item>Zaawansowany</item>
+    </array>
+    <array name="voice_input_modes">
+        <item>Na klawiaturze głównej</item>
+        <item>Na klawiaturze z symbolami</item>
+        <item>Wyłączone</item>
+    </array>
+    <array name="voice_input_modes_summary">
+        <item>Mikrofon na klawiaturze głównej</item>
+        <item>Mikrofon na klawiaturze z symbolami</item>
+        <item>Wprowadzanie głosowe jest wyłączone</item>
+    </array>
+    <array name="fsp">
+        <item>Dopasuj automatycznie</item>
+        <item>Wyłączony</item>
+        <item>Włączony</item>
+    </array>
+    <array name="lpe">
+        <item>--</item>
+        <item>Tabulator</item>
+        <item>Buźki</item>
+    </array>
+    <array name="mt9">
+        <item>Włącz dla trybu bez podpowiedzi</item>
+        <item>Wyłączony</item>
+        <item>Włączony</item>
+    </array>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="10%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:keyWidth="8.333%p" android:rowEdgeFlags="top">
+        <Key android:keyEdgeFlags="left" android:keyLabel="ొ"/>
+        <Key android:keyLabel="ౌ"/>
+        <Key android:keyLabel="ై"/>
+        <Key android:keyLabel="ా"/>
+        <Key android:keyLabel="ీ"/>
+        <Key android:keyLabel="ూ"/>
+        <Key android:keyLabel="బ"/>
+        <Key android:keyLabel="హ"/>
+        <Key android:keyLabel="గ"/>
+        <Key android:keyLabel="ద"/>
+        <Key android:keyLabel="జ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="డ"/>
+    </Row>
+    <Row android:keyWidth="9.09%p">
+        <Key android:keyEdgeFlags="left" android:keyLabel="ో"/>
+        <Key android:keyLabel="ే"/>
+        <Key android:keyLabel="్"/>
+        <Key android:keyLabel="ి"/>
+        <Key android:keyLabel="ు"/>
+        <Key android:keyLabel="ప"/>
+        <Key android:keyLabel="ర"/>
+        <Key android:keyLabel="క"/>
+        <Key android:keyLabel="త"/>
+        <Key android:keyLabel="చ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ృ"/>
+    </Row>
+    <Row android:keyWidth="9.09%p">
+        <Key android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_shift" android:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key android:keyLabel="ె"/>
+        <Key android:keyLabel="ం"/>
+        <Key android:keyLabel="మ"/>
+        <Key android:keyLabel="న"/>
+        <Key android:keyLabel="వ"/>
+        <Key android:keyLabel="ల"/>
+        <Key android:keyLabel="స"/>
+        <Key android:keyLabel="య"/>
+        <Key android:keyLabel="ట"/>
+        <Key android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:keyWidth="10%p" android:rowEdgeFlags="bottom" android:keyboardMode="@+id/mode_normal">
+        <Key android:keyWidth="20%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:keyLabel="ఞ"/>
+        <Key android:keyWidth="40%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:isModifier="true" android:keyLabel="."/>
+        <Key android:keyWidth="20%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+    <Row android:keyWidth="10%p" android:rowEdgeFlags="bottom" android:keyboardMode="@+id/mode_normal_with_settings_key">
+        <Key android:keyWidth="15%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:codes="@integer/key_settings" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_settings" android:keyIcon="@drawable/sym_keyboard_settings"/>
+        <Key android:keyLabel="ఞ"/>
+        <Key android:keyWidth="30%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:isModifier="true" android:keyLabel="."/>
+        <Key android:keyWidth="25%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

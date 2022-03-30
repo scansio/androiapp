@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="prediction_modes">
+        <item>Нет</item>
+        <item>Основной</item>
+        <item>Дополнительно</item>
+    </array>
+    <array name="voice_input_modes">
+        <item>На основной клавиатуре</item>
+        <item>На клавиатуре символов</item>
+        <item>Выкл.</item>
+    </array>
+    <array name="voice_input_modes_summary">
+        <item>Микрофон на основной клавиатуре</item>
+        <item>Микрофон на клавиатуре символов</item>
+        <item>Голосовой ввод отключен</item>
+    </array>
+    <array name="fsp">
+        <item>Авто-обнаружение</item>
+        <item>Выкл.</item>
+        <item>Вкл.</item>
+    </array>
+    <array name="lpe">
+        <item>--</item>
+        <item>Клавиша Tab</item>
+        <item>Смайлы</item>
+    </array>
+    <array name="mt9">
+        <item>Включить когда подсказки выключены</item>
+        <item>Выкл.</item>
+        <item>Вкл.</item>
+    </array>
+</resources>

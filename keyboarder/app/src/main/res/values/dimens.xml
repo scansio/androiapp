@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="candidate_strip_fading_edge_length">23dp</dimen>
+    <dimen name="candidate_strip_height">42dp</dimen>
+    <dimen name="key_bottom_gap">0px</dimen>
+    <dimen name="key_height">0.28in</dimen>
+    <dimen name="keyboard_bottom_padding1">0.06in</dimen>
+    <dimen name="mini_keyboard_slide_allowance">0.553in</dimen>
+    <dimen name="mini_keyboard_vertical_correction">-0.325in</dimen>
+    <dimen name="popup_key_height">0.275in</dimen>
+    <dimen name="spacebar_vertical_correction">4dp</dimen>
+    <dimen name="bubble_pointer_offset">22dp</dimen>
+    <dimen name="candidate_min_touchable_width">0.3in</dimen>
+    <dimen name="key_height2">0.25in</dimen>
+    <dimen name="key_hysteresis_distance">0.05in</dimen>
+    <dimen name="key_label_text_size">0.083in</dimen>
+    <dimen name="key_preview_height">80sp</dimen>
+    <dimen name="key_preview_offset">0in</dimen>
+    <dimen name="key_preview_text_size_large">40sp</dimen>
+    <dimen name="key_text_size">0.13in</dimen>
+    <dimen name="keyboard_vertical_correction">-0.05in</dimen>
+    <dimen name="max_height_for_fullscreen">2.5in</dimen>
+</resources>

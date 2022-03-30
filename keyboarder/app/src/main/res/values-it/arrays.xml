@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="prediction_modes">
+        <item>Nessuna</item>
+        <item>Base</item>
+        <item>Avanzate</item>
+    </array>
+    <array name="voice_input_modes">
+        <item>Su tastiera principale</item>
+        <item>Su tastiera simboli</item>
+        <item>Non attivi</item>
+    </array>
+    <array name="voice_input_modes_summary">
+        <item>Microfono su tastiera principale</item>
+        <item>Microfono su tastiera simboli</item>
+        <item>Comandi vocali disabilitati</item>
+    </array>
+    <array name="vib_modes">
+        <item>Nessuna</item>
+        <item>Leggera</item>
+        <item>Normale</item>
+        <item>Forte</item>
+    </array>
+    <array name="fsp">
+        <item>Individua automaticamente</item>
+        <item>Off</item>
+        <item>On</item>
+    </array>
+    <array name="lpe">
+        <item>--</item>
+        <item>Tasto Tab</item>
+        <item>Smileys</item>
+    </array>
+    <array name="mt9">
+        <item>Attiva quando i suggerimenti sono spenti</item>
+        <item>Off</item>
+        <item>On</item>
+    </array>
+</resources>

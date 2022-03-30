@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/whole_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bar_background" android:background="#dddddd" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <view android:id="@+id/navigation_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" class="com.mediatek.filemanager.AbsBaseActivity$SlowHorizontalScrollView">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/tabs_holder" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </view>
+    </LinearLayout>
+    <View android:background="@drawable/title_bar_line" android:layout_width="match_parent" android:layout_height="1px" android:layout_below="@+id/bar_background"/>
+    <LinearLayout android:id="@+id/select_cancel_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/Holo.ButtonBar">
+        <Button android:id="@+id/select_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cancel" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+    <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignTop="@+id/select_cancel_bar"/>
+    <ListView android:id="@+id/list_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/select_cancel_bar" android:layout_below="@+id/bar_background"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#ffc0c0c0" android:gravity="center" android:id="@+id/empty_view" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/empty_msg" android:layout_above="@+id/select_cancel_bar" android:layout_below="@+id/bar_background"/>
+</RelativeLayout>

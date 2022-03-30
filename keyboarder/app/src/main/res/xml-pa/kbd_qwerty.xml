@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="10%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:keyEdgeFlags="left" android:keyLabel="ਤ"/>
+        <Key android:keyLabel="ਾ"/>
+        <Key android:keyLabel="ੲ"/>
+        <Key android:keyLabel="ਰ"/>
+        <Key android:keyLabel="ਟ"/>
+        <Key android:keyLabel="ੇ"/>
+        <Key android:keyLabel="ੁ"/>
+        <Key android:keyLabel="ਿ"/>
+        <Key android:keyLabel="ੋ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ਪ"/>
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyLabel="ੳ"/>
+        <Key android:keyLabel="ਸ"/>
+        <Key android:keyLabel="ਦ"/>
+        <Key android:keyLabel="ਡ"/>
+        <Key android:keyLabel="ਗ"/>
+        <Key android:keyLabel="ਹ"/>
+        <Key android:keyLabel="ਜ"/>
+        <Key android:keyLabel="ਕ"/>
+        <Key android:keyLabel="ਲ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ਞ"/>
+    </Row>
+    <Row>
+        <Key android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_shift" android:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key android:keyLabel="ਜ਼"/>
+        <Key android:keyLabel="ਣ"/>
+        <Key android:keyLabel="ਚ"/>
+        <Key android:keyLabel="ਵ"/>
+        <Key android:keyLabel="ਬ"/>
+        <Key android:keyLabel="ਨ"/>
+        <Key android:keyLabel="ਮ"/>
+        <Key android:keyLabel="ਫ਼"/>
+        <Key android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="18%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:keyWidth="13%p" android:codes="@integer/key_f1" android:isModifier="true"/>
+        <Key android:keyWidth="38%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:keyWidth="13%p" android:isModifier="true" android:keyLabel="."/>
+        <Key android:keyWidth="18%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

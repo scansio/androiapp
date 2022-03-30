@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/actionbar_fm_share" android:id="@+id/share" android:title="@string/share" android:showAsAction="always"/>
+    <item android:icon="@drawable/actionbar_fm_hotknot" android:id="@+id/hotknot_share" android:title="@string/hotknot" android:showAsAction="always"/>
+    <item android:icon="@drawable/actionbar_fm_copy" android:id="@+id/copy" android:title="@string/copy" android:showAsAction="always"/>
+    <item android:icon="@drawable/actionbar_fm_delete" android:id="@+id/delete" android:title="@string/delete" android:showAsAction="always"/>
+    <item android:icon="@drawable/actionbar_fm_cut" android:id="@+id/cut" android:title="@string/cut" android:showAsAction="never"/>
+    <item android:id="@+id/rename" android:title="@string/rename" android:showAsAction="never"/>
+    <item android:id="@+id/details" android:title="@string/details" android:showAsAction="never"/>
+    <item android:id="@+id/protection_info" android:showAsAction="never"/>
+    <item android:id="@+id/addRingtone" android:title="@string/add_ringtone" android:showAsAction="never"/>
+    <item android:id="@+id/cancelRingtone" android:title="@string/cancel_ringtone" android:showAsAction="never"/>
+    <item android:id="@+id/addNotificationSound" android:title="@string/add_notification_sound" android:showAsAction="never"/>
+    <item android:id="@+id/cancelNotificationSound" android:title="@string/cancel_notification_sound" android:showAsAction="never"/>
+    <item android:id="@+id/addAlarmSound" android:title="@string/add_alarm_sound" android:showAsAction="never"/>
+    <item android:id="@+id/cancelAlarmSound" android:title="@string/cancel_alarm_sound" android:showAsAction="never"/>
+</menu>

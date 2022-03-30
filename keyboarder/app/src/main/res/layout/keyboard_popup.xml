@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@drawable/keyboard_popup_panel_background" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.klye.ime.latin.LatinKeyboardBaseView android:id="@+id/LatinKeyboardBaseView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" xmlns:ns1="http://schemas.android.com/apk/res/com.klye.ime.latin" ns1:keyHysteresisDistance="0dp" xmlns:ns2="http://schemas.android.com/apk/res/com.klye.ime.latin" ns2:verticalCorrection="@dimen/mini_keyboard_vertical_correction"/>
+</LinearLayout>

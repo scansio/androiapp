@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="keyboardViewStyle" format="reference">
+    </attr>
+    <attr name="keyBackground" format="reference">
+    </attr>
+    <attr name="keyTextSize" format="dimension">
+    </attr>
+    <attr name="labelTextSize" format="dimension">
+    </attr>
+    <attr name="keyTextColor" format="color">
+    </attr>
+    <attr name="keyPreviewLayout" format="reference">
+    </attr>
+    <attr name="keyPreviewOffset" format="dimension">
+    </attr>
+    <attr name="keyPreviewHeight" format="dimension">
+    </attr>
+    <attr name="keyHysteresisDistance" format="dimension">
+    </attr>
+    <attr name="verticalCorrection" format="dimension">
+    </attr>
+    <attr name="popupLayout" format="reference">
+    </attr>
+    <attr name="shadowColor" format="color">
+    </attr>
+    <attr name="shadowRadius" format="float">
+    </attr>
+    <attr name="backgroundDimAmount" format="float">
+    </attr>
+    <attr name="keyTextStyle">
+        <flag name="bold" value="1" />
+        <flag name="italic" value="2" />
+        <flag name="normal" value="0" />
+    </attr>
+    <attr name="symbolColorScheme">
+        <flag name="black" value="1" />
+        <flag name="white" value="0" />
+    </attr>
+</resources>

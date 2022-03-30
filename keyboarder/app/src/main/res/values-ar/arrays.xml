@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="prediction_modes">
+        <item>بدون</item>
+        <item>أساسي</item>
+        <item>متقدم</item>
+    </array>
+    <array name="voice_input_modes">
+        <item>على اللوحة الرئيسية</item>
+        <item>على لوحة الرموز</item>
+        <item>معطل</item>
+    </array>
+    <array name="voice_input_modes_summary">
+        <item>اللاقط على لوحة المفاتيح الرئيسية</item>
+        <item>اللاقط على لوحة مفاتيح الرموز</item>
+        <item>الإدخال الصوتي معطل</item>
+    </array>
+</resources>

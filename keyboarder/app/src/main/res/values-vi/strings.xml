@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alternates_for_a">ạàảáâậầấẩẫăặằắẳẵã</string>
+    <string name="alternates_for_d">đ</string>
+    <string name="alternates_for_e">ẹèẻéêệếểềễẽ</string>
+    <string name="alternates_for_i">ịìỉíîĩ</string>
+    <string name="alternates_for_o">ọòỏóôồốổỗộơợờởớỡõơ</string>
+    <string name="alternates_for_u">ụùủúûũưựừứửữ</string>
+    <string name="alternates_for_y">ýỳỷỵỹ</string>
+</resources>

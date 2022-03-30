@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="vib_modes">
+        <item>진동 끄기</item>
+        <item>약한 진동</item>
+        <item>기본 진동</item>
+        <item>강한 진동</item>
+    </array>
+    <array name="fsp">
+        <item>자동 감지</item>
+        <item>전체화면 사용 안함</item>
+        <item>항상 전체화면 사용</item>
+    </array>
+    <array name="lpe">
+        <item>사용 안함</item>
+        <item>탭 키</item>
+        <item>스마일리</item>
+    </array>
+    <array name="mt9">
+        <item>단어추천이 꺼졌을 때만 사용</item>
+        <item>사용 안함</item>
+        <item>사용함</item>
+    </array>
+</resources>

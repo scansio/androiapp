@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="9.09%p" android:keyHeight="@dimen/key_height2" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:keyEdgeFlags="left" android:keyLabel="ൊ"/>
+        <Key android:keyLabel="₹"/>
+        <Key android:keyLabel="‌"/>
+        <Key android:keyLabel="豈"/>
+        <Key android:keyLabel="ൽ"/>
+        <Key android:keyLabel="ൾ"/>
+        <Key android:keyLabel="ൿ"/>
+        <Key android:keyLabel="更"/>
+        <Key android:keyLabel="ഋ"/>
+        <Key android:keyLabel="ർ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ഃ"/>
+    </Row>
+    <Row>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ൌ" android:keyEdgeFlags="left" android:keyLabel="ൗ"/>
+        <Key android:keyLabel="ൈ"/>
+        <Key android:keyLabel="ാ"/>
+        <Key android:keyLabel="ീ"/>
+        <Key android:keyLabel="ൂ"/>
+        <Key android:keyLabel="ബ"/>
+        <Key android:keyLabel="ഹ"/>
+        <Key android:keyLabel="ഗ"/>
+        <Key android:keyLabel="ദ"/>
+        <Key android:keyLabel="ജ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ഡ"/>
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyLabel="ോ"/>
+        <Key android:keyLabel="േ"/>
+        <Key android:keyLabel="്"/>
+        <Key android:keyLabel="ി"/>
+        <Key android:keyLabel="ു"/>
+        <Key android:keyLabel="പ"/>
+        <Key android:keyLabel="ര"/>
+        <Key android:keyLabel="ക"/>
+        <Key android:keyLabel="ത"/>
+        <Key android:keyLabel="ച"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ട"/>
+    </Row>
+    <Row>
+        <Key android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_shift" android:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key android:keyLabel="െ"/>
+        <Key android:keyLabel="ം"/>
+        <Key android:keyLabel="മ"/>
+        <Key android:keyLabel="ന"/>
+        <Key android:keyLabel="വ"/>
+        <Key android:keyLabel="ല"/>
+        <Key android:keyLabel="സ"/>
+        <Key android:keyLabel="ൃ"/>
+        <Key android:keyLabel="യ"/>
+        <Key android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="18%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:keyWidth="13%p" android:codes="@integer/key_f1" android:isModifier="true"/>
+        <Key android:keyWidth="38.5%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:keyWidth="13%p" android:isModifier="true" android:keyLabel="."/>
+        <Key android:keyWidth="18%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

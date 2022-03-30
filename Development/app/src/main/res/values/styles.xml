@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SummaryCategoryLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SummaryCategoryHeader">
+        <item name="android:textAppearance">@style/TextAppearance.SummaryCategoryHeader</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="info_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="entry_layout">
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_label">
+        <item name="android:textAppearance">@style/TextAppearance.info_label</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_value">
+        <item name="android:textAppearance">@style/TextAppearance.info_value</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextAppearance">
+    </style>
+    <style name="TextAppearance.info_label">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.SummaryCategoryHeader">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.info_value">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">@null</item>
+    </style>
+</resources>

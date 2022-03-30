@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:foreground="@color/trans"
+    android:background="@color/trans"
+    >
+    
+    <LinearLayout
+        android:id="@+id/sbarHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        
+        android:padding="0.5dp"
+        android:gravity="center">
+        
+      <EditText
+          android:id="@+id/sbar"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" 
+          android:layout_weight="1" 
+          
+          android:singleLine="true"/>
+          
+          <HorizontalScrollView
+        android:id="@+id/searchLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0.5dp"
+        android:layout_weight="1" 
+        android:foreground="@color/trans"
+        android:gravity="center" />
+        
+      </LinearLayout>
+        
+       <ScrollView
+          android:id="@+id/sv"
+          
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" >
+        
+      <LinearLayout
+          android:id="@+id/ly"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          
+          android:padding="25dp"
+          android:gravity="center"/>
+        
+     </ScrollView>
+</LinearLayout>

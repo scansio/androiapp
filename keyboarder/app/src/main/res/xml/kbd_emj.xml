@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="10%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="c604" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쑿였영옂옃옄옅옆옇예옉옊옋옌옍옎옏옐옑옒옓옔옕옖옗옘옙옚옛옜옝옞옟옠옡옢옣오옥옦옧온옩옪옫올옭옮옯옰옱옲옳옴옵옶옷"/>
+        <Key android:codes="c476" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쑿예쑲쑳쑮쑷쒂쑶쑦쑧쑨쑩쑴쑵쑱쑼쑸쑹쑺쎃쑻쎅쒀쑽쒩씥쒬쑣쒭쌟쒫쒥쒢쒦쒧쒤쒨쑤쑥"/>
+        <Key android:codes="c44b" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쑂쑀쑃쑅쑄쑍쑎쑌쑊✊✌쑋✋쑐쑆쑇쑉쑈왌왏☝쑏쒪"/>
+        <Key android:codes="c46b" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="욶쏃쒃쑫쑪쑬쑭쒏쒑쑯왆왅쒁왋쒆쒇쒅쑰왎왍왇움쒈"/>
+        <Key android:codes="c45f" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쎩쑑쑒쑟쑞쑡쑠쑢쑕쑔쑚쑗쎽쑖쑘쑙쒼쑜쑝쑛쑓쎀쌂쒄쒋쒍쒎"/>
+        <Key android:codes="2665" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="옘쒛쒙쒜쒚❤쒔쒗쒓쒕쒖쒞쒘쒌쒝쒟♥쒏쒑쒋옻옍쒒"/>
+        <Key android:codes="c42d" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쐶쐺쐱쐭쐹쐰쐸쐯쐨쐻쐷쐽쐮쐗쐵쐒쐴쐑쐘쐼쐧쐦쐤쐥쐣쐔쐍쐢쐛쐝쐜쐞쐌쐙쐚쐠쐟쐬쐳쐋쐄쐏쐀쐃쐅쐇쐉쐎쐐쐓쐕쐖쐁쐂쐲쐡쐊쐫쐪쐆쐈쐩쐾"/>
+        <Key android:codes="c63a" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쐱옺옸옻옽옼와옿옹옾왈왉왊쐵쐒"/>
+        <Key android:codes="c337" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쒐쌸쌷썀쌹쌻쌺썁썃썂쌿쌾썄쌵쌴쌲쌳쌰쌱쌼"/>
+        <Key android:codes="c30f" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쌐쌞쌝쌚쌑쌒쌓쌔쌕쌖쌗쌘쌜쌛쌙쌍쌎쌏쌋쌌쌠⭐☀⛅☁⚡☔⛄쌀쌁쌈쌊"/>
+    </Row>
+    <Row>
+        <Key android:horizontalGap="5%p" android:codes="c386" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쎍쒝쎎쎒쎓쎏쎆쎇쎐쎑쎃쑻쎅쎄쎁쎋쎉쎊쎈쎌쏮"/>
+        <Key android:codes="c3c8" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="씮쓯씬씭쓰쎨쎬쎤쎧쎼쎵쎶쎹쎻쎺쎷쎸쑾쎮샏쎴쀄쎲쎯쏈쏀⚽⚾쎾쎱쏉쎳⛳욵운쏁쏇쏆쎿쏂쏊쏄쎣♠♥♣♦욶쏃쒃쑯"/>
+        <Key android:codes="c4f7" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쎥쓷쓹쓼쒿쓀쒽쒾쒻쓱☎쓞쓟쓠쓡쓺쓻씊씉씈씇씔씕쓢쓣씓씒씏씐씑씎쒡씦씆씅씌씋씍웁움욿욽씧씩씨욪욬쒣씫씪쒊쒉쓲쓧"/>
+        <Key android:codes="c4ee" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쓥쓤✉쓩쓨쓫쓪쓬쓭쓮쓦쓝쓄쓃쓑쓊쓈쓉쓜쓋쓅쓆쓇쓁쓂✂쓌쓎✒✏쓏쓐쓕쓗쓘쓙쓓쓔쓒쓚쓖씖쓛"/>
+        <Key android:codes="c4b0" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쒲쒰쒴쒵쒷쒶쒳쒸"/>
+        <Key android:codes="c36d" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="☕썵썶썼썺썻썸썹썷썴썕썔썟썗썖썝썛썤썱썣썥썙썘썚썜썲썢썡썳썞썩썮썦써썧쎂썰썪썫썬썭썯"/>
+        <Key android:codes="c349" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="썎썏썊썋썒썇썉썓썑썈썌썐썍썠썆썅쌽쌰"/>
+        <Key android:codes="c5fd" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="쏠쏡쏫쏢쏣쏥쏦쏪쏩쏨쒒⛪쏬쏤쌇쌆쏯쏰⛺쏭염엿엾엻쌄쌅쌃엽쌉쎠쎡⛲쎢욢쏮쒈쎰♨쎪쎭쓍용쏧쒹"/>
+        <Key android:codes="e50c" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters=""/>
+    </Row>
+    <Row>
+        <Key android:keyWidth="15%p" android:popupKeyboard="@xml/popup_smileys" android:keyEdgeFlags="left" android:isModifier="true" android:keyOutputText=":-) " android:keyLabel=":-)"/>
+        <Key android:codes="c68c" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="⛵욤욣⚓욀✈쒺욁욂욊욉욎욆욄욅욈욇욝욋욃욎욌욍욙욘욗욕욖욛욚욨욓요욒욑욐욲욡욟욠욜욏쎫욦욥⚠욧씰⛽욫씞쓵욯욱욳욷울⛔욶쏃욵운쏇쏊"/>
+        <Key android:codes="c51f" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="씟씢씣⬆⬇⬅➡씠씡씤↗↖↘↙씄◀▶씼씽⏪⏩⤵⤴솗씀씁씂솕솙솒솓솖쓶쎦숁씝"/>
+        <Key android:codes="c232" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="숯숳숵숴숲쉐숹숺숶숚숷숸숂쉑㊙㊗"/>
+        <Key android:codes="2648" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="♈♉♊♋♌♍♎♏♐♑♒♓⛎씯"/>
+        <Key android:codes="c559" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="앛앧앐앜앑앝앒앞앓앟암애압액앖앢앗앣았앤앙앥앚앦"/>
+        <Key android:codes="c537" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="✖♠♥♣♦쒮쒯씘씗〽씱◼◻◾◽▪▫씺씲씳⚫⚪씴씵씻⬜⬛씶씷씸씹쒱©®™❌❗❓❕❔⭕씝씚씙씛씜씃ℹ"/>
+        <Key android:codes="c6ad" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="욻욹욺욼욾우욮셿♿욭Ⓜ웂웄웅웃솑솘솔욫씞쓵욯욱욳욷울⛔✳❇❎✅✴쒟솚쓳쓴셰셱솎셾쒠➿"/>
+        <Key android:keyWidth="15%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="20%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_alpha_key"/>
+        <Key android:codes="@integer/key_f1" android:isModifier="true"/>
+        <Key android:keyWidth="40%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:isModifier="true" android:keyLabel="."/>
+        <Key android:keyWidth="20%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

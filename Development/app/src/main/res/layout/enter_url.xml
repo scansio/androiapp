@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.development.UrlEditText android:textSize="13sp" android:id="@+id/url_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:capitalize="none" android:autoText="false"/>
+    <com.android.development.DisplayEditText android:textSize="13sp" android:id="@+id/display_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:capitalize="none" android:autoText="false"/>
+    <ListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

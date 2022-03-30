@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sort_by">
+        <item>Jenis</item>
+        <item>Nama (A - Z)</item>
+        <item>Ukuran (besar - kecil)</item>
+        <item>Waktu (baru - lama)</item>
+    </array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@android:color/black" android:paddingLeft="0dp" android:paddingRight="0dp" android:paddingBottom="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/main_image" android:background="@drawable/bg" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="180dp" android:scaleType="fitXY">
+        <TextView android:textSize="28sp" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/voice_initializing"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:src="@drawable/mic_slash"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:indeterminate="true" android:indeterminateOnly="false"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/button" android:background="@drawable/ok_cancel" android:paddingLeft="1dp" android:paddingRight="1dp" android:layout_width="match_parent" android:layout_height="42dp" android:scaleType="fitXY">
+        <TextView android:textSize="19sp" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:id="@+id/button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/cancel"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="6.667%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:keyEdgeFlags="left" android:keyLabel="я"/>
+        <Key android:keyLabel="ж"/>
+        <Key android:keyLabel="е"/>
+        <Key android:keyLabel="р"/>
+        <Key android:keyLabel="т"/>
+        <Key android:isModifier="true" android:keyLabel="1"/>
+        <Key android:isModifier="true" android:keyLabel="2"/>
+        <Key android:isModifier="true" android:keyLabel="3"/>
+        <Key android:codes="@integer/key_right" android:isModifier="true" android:keyLabel=" "/>
+        <Key android:keyLabel="ы"/>
+        <Key android:keyLabel="у"/>
+        <Key android:keyLabel="и"/>
+        <Key android:keyLabel="о"/>
+        <Key android:keyLabel="п"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ю"/>
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyLabel="а"/>
+        <Key android:keyLabel="с"/>
+        <Key android:keyLabel="д"/>
+        <Key android:keyLabel="ф"/>
+        <Key android:keyLabel="г"/>
+        <Key android:isModifier="true" android:keyLabel="4"/>
+        <Key android:isModifier="true" android:keyLabel="5"/>
+        <Key android:isModifier="true" android:keyLabel="6"/>
+        <Key android:codes="@integer/key_left" android:isModifier="true" android:keyLabel=" "/>
+        <Key android:keyLabel=""/>
+        <Key android:keyLabel="й"/>
+        <Key android:keyLabel="к"/>
+        <Key android:keyLabel="л"/>
+        <Key android:keyLabel="ч"/>
+        <Key android:keyLabel="ш"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="щ"/>
+    </Row>
+    <Row>
+        <Key android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_shift" android:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key android:keyLabel="з"/>
+        <Key android:keyLabel="х"/>
+        <Key android:keyLabel="ц"/>
+        <Key android:keyLabel="в"/>
+        <Key android:isModifier="true" android:keyLabel="7"/>
+        <Key android:isModifier="true" android:keyLabel="8"/>
+        <Key android:isModifier="true" android:keyLabel="9"/>
+        <Key android:isModifier="true" android:keyLabel="0"/>
+        <Key android:keyLabel="б"/>
+        <Key android:keyLabel="н"/>
+        <Key android:keyLabel="м"/>
+        <Key android:keyLabel="ь"/>
+        <Key android:keyLabel="э"/>
+        <Key android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="15%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:keyWidth="10%p" android:codes="@integer/key_f1" android:isModifier="true"/>
+        <Key android:keyWidth="52%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:keyWidth="10%p" android:isModifier="true" android:keyLabel="."/>
+        <Key android:keyWidth="13%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

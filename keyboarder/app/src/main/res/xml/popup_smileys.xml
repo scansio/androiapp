@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="15%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="0px" android:verticalGap="0px">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="@integer/key_tab" android:keyEdgeFlags="left" android:keyIcon="@drawable/sym_keyboard_tab"/>
+        <Key android:keyOutputText="✖" android:keyLabel="✖"/>
+        <Key android:keyOutputText="♥" android:keyLabel="♥"/>
+        <Key android:keyOutputText="☺" android:keyLabel="☺"/>
+        <Key android:codes="@integer/key_return" android:keyEdgeFlags="right" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyOutputText=":-) " android:keyLabel=":-)"/>
+        <Key android:keyOutputText=":-( " android:keyLabel=":-("/>
+        <Key android:keyOutputText=";-) " android:keyLabel=";-)"/>
+        <Key android:keyOutputText=":-P " android:keyLabel=":-P"/>
+        <Key android:keyEdgeFlags="right" android:keyOutputText="=-O " android:keyLabel="=-O"/>
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyOutputText=":-* " android:keyLabel=":-*"/>
+        <Key android:keyOutputText=":O " android:keyLabel=":O"/>
+        <Key android:keyOutputText="B-) " android:keyLabel="B-)"/>
+        <Key android:keyOutputText=":-$ " android:keyLabel=":-$"/>
+        <Key android:keyEdgeFlags="right" android:keyOutputText=":-! " android:keyLabel=":-!"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyEdgeFlags="left" android:keyOutputText=":-[ " android:keyLabel=":-["/>
+        <Key android:keyOutputText="O:-) " android:keyLabel="O:-)"/>
+        <Key android:keyOutputText=":-\\ " android:keyLabel=":-\\"/>
+        <Key android:keyOutputText=":&apos;( " android:keyLabel=":&apos;("/>
+        <Key android:keyEdgeFlags="right" android:keyOutputText=":-D " android:keyLabel=":-D"/>
+    </Row>
+</Keyboard>

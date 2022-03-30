@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/accounts_tester_get_auth_token_dialog_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/accounts_tester_enter_auth_token_type"/>
+    <EditText android:id="@+id/accounts_tester_auth_token_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="250dp" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false"/>
+    <TextView android:id="@+id/accounts_tester_get_features_dialog_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/accounts_tester_enter_features"/>
+    <EditText android:id="@+id/accounts_tester_features" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="250dp" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false"/>
+</LinearLayout>

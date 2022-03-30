@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sort_by">
+        <item>ዓይነት</item>
+        <item>ሽም (A - Z)</item>
+        <item>መጠን (ዓብይ - ንእሽቶይ)</item>
+        <item>ሰዓት (ሓዱሽ -ዝቐደመ)</item>
+    </array>
+</resources>

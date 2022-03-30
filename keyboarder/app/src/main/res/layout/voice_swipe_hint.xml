@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="horizontal" android:background="#bb000000" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="13sp" android:textColor="#888888" android:layout_gravity="center_horizontal" android:id="@+id/text" android:paddingTop="10dp" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voice_swipe_hint"/>
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_suggest_strip_microphone"/>
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_suggest_strip_microphone_swipe"/>
+</LinearLayout>

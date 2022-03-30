@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="8.33%p" android:keyHeight="@dimen/key_height2" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:keyEdgeFlags="left" android:keyLabel="ຢ"/>
+        <Key android:keyLabel="ຟ"/>
+        <Key android:keyLabel="ໂ"/>
+        <Key android:keyLabel="ຖ"/>
+        <Key android:keyLabel="ຸ"/>
+        <Key android:keyLabel="ູ"/>
+        <Key android:keyLabel="ຄ"/>
+        <Key android:keyLabel="ຕ"/>
+        <Key android:keyLabel="ຈ"/>
+        <Key android:keyLabel="ຂ"/>
+        <Key android:keyLabel="ຊ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ໍ"/>
+    </Row>‍‍\10
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyLabel="ົ"/>
+        <Key android:keyLabel="ໄ"/>
+        <Key android:keyLabel="ຳ"/>
+        <Key android:keyLabel="ພ"/>
+        <Key android:keyLabel="ະ"/>
+        <Key android:keyLabel="ິ"/>
+        <Key android:keyLabel="ີ"/>
+        <Key android:keyLabel="ຮ"/>
+        <Key android:keyLabel="ນ"/>
+        <Key android:keyLabel="ຍ"/>
+        <Key android:keyLabel="ບ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ລ"/>
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyLabel="ັ"/>
+        <Key android:keyLabel="ຫ"/>
+        <Key android:keyLabel="ກ"/>
+        <Key android:keyLabel="ດ"/>
+        <Key android:keyLabel="ເ"/>
+        <Key android:keyLabel="້"/>
+        <Key android:keyLabel="່"/>
+        <Key android:keyLabel="າ"/>
+        <Key android:keyLabel="ສ"/>
+        <Key android:keyLabel="ວ"/>
+        <Key android:keyLabel="ງ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ຝ"/>
+    </Row>
+    <Row>
+        <Key android:keyWidth="12.9%p" android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_shift" android:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key android:keyLabel="ຜ"/>
+        <Key android:keyLabel="ປ"/>
+        <Key android:keyLabel="ແ"/>
+        <Key android:keyLabel="ອ"/>
+        <Key android:keyLabel="ຶ"/>
+        <Key android:keyLabel="ື"/>
+        <Key android:keyLabel="ທ"/>
+        <Key android:keyLabel="ມ"/>
+        <Key android:keyLabel="ໃ"/>
+        <Key android:keyWidth="12.9%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:keyWidth="10%p" android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="20%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:codes="@integer/key_f1" android:isModifier="true"/>
+        <Key android:keyWidth="40%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:isModifier="true" android:keyLabel="."/>
+        <Key android:keyWidth="20%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

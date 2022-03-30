@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:title="@string/english_ime_settings" android:key="english_ime_settings">
+    <PreferenceScreen android:title="New Version!!" android:summary="Try OKeyboard (more features, themes, custom layouts, smaller, etc.)">
+        <intent android:action="android.intent.action.VIEW" android:data="https://play.google.com/store/apps/details?id=kl.ime.oh"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/hw_homepage" android:summary="@string/hw_homepage_summ">
+        <intent android:action="android.intent.action.VIEW" android:data="http://multiling-kbd.appspot.com/ml.html"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/language_selection_title" android:summary="@string/language_selection_summary">
+        <PreferenceScreen android:title="@string/hw_dl_plugin" android:summary="@string/hw_dl_plugin2">
+            <intent android:action="android.intent.action.VIEW" android:data="http://multiling-kbd.appspot.com/plugin.html"/>
+        </PreferenceScreen>
+        <CheckBoxPreference android:persistent="true" android:title="@string/ms" android:key="ms" android:summary="@string/ms_sum" android:defaultValue="false"/>
+        <PreferenceScreen android:title="@string/language_selection_title" android:summary="@string/lang_opt">
+            <intent android:action="com.klye.ime.latin.INPUT_LANGUAGE_SELECTION"/>
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/english_ime_input_options">
+        <ListPreference android:persistent="true" android:entries="@array/vib" android:title="@string/vibrate_on_keypress" android:key="vib" android:defaultValue="0" android:entryValues="@array/vib_modes_values"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/sound_on_keypress" android:key="sound_on"/>
+        <EditTextPreference android:persistent="true" android:title="@string/vol" android:key="vol" android:summary="@string/vol_sum"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/popup_on_keypress" android:key="popup_on" android:defaultValue="@bool/default_popup_preview"/>
+        <PreferenceCategory android:title="@string/english_ime_input_options">
+            <CheckBoxPreference android:persistent="true" android:title="@string/dsp" android:key="dsp" android:summary="@string/dsp_summ" android:defaultValue="false"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/swp" android:key="swp" android:summary="@string/swp_sum" android:defaultValue="true"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/auto_cap" android:key="auto_cap" android:defaultValue="true"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/dkf" android:key="dkf" android:summary="@string/dkf_sum" android:defaultValue="false"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/auto_norm" android:key="auto_norm" android:summary="@string/auto_norm_sum" android:defaultValue="true"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/dk" android:key="dk" android:summary="@string/dk_sum" android:defaultValue="true"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/lp" android:summary="@string/lp_sum">
+        <EditTextPreference android:persistent="true" android:title="@string/lpt" android:key="lpt" android:summary="@string/lpt_sum"/>
+        <PreferenceCategory android:title="@string/lpk">
+            <CheckBoxPreference android:persistent="true" android:title="@string/lpsl" android:key="lpsl" android:summary="@string/lpsl_sum" android:defaultValue="true"/>
+            <ListPreference android:persistent="true" android:entries="@array/lpe" android:title="@string/lpe" android:key="lpe" android:defaultValue="2" android:entryValues="@array/gest_values"/>
+            <EditTextPreference android:persistent="true" android:title="@string/pkp" android:key="pkp" android:summary="@string/pkp_sum"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/cap_lock" android:key="cap_lock" android:summary="@string/cap_lock_summ" android:defaultValue="true"/>
+            <Preference android:title="@string/k123" android:key="k123" android:summary="@string/k123_sum"/>
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/ns">
+            <CheckBoxPreference android:persistent="true" android:title="@string/ns" android:key="ns" android:summary="@string/ns_summ" android:defaultValue="true"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/ncf" android:key="ncf" android:summary="@string/ncf_summ" android:dependency="ns" android:defaultValue="true"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/al" android:key="al" android:defaultValue="true"/>
+            <EditTextPreference android:persistent="true" android:title="@string/sym" android:key="sym" android:summary="@string/sym_sum" android:dependency="ns"/>
+            <EditTextPreference android:persistent="true" android:title="@string/sym" android:key="sym2" android:summary="@string/sym2_sum" android:dependency="ns"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/gest_on">
+        <CheckBoxPreference android:persistent="true" android:title="@string/swsl" android:key="swsl" android:summary="@string/swsl_sum" android:defaultValue="true"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/gest_on" android:key="gest_on" android:defaultValue="true"/>
+        <ListPreference android:persistent="true" android:entries="@array/gest" android:title="↓" android:key="b" android:defaultValue="1" android:entryValues="@array/gest_values"/>
+        <ListPreference android:persistent="true" android:entries="@array/gest" android:title="→" android:key="r" android:defaultValue="13" android:entryValues="@array/gest_values"/>
+        <ListPreference android:persistent="true" android:entries="@array/gest" android:title="↑" android:key="t" android:defaultValue="4" android:entryValues="@array/gest_values"/>
+        <ListPreference android:persistent="true" android:entries="@array/gest" android:title="←" android:key="l" android:defaultValue="2" android:entryValues="@array/gest_values"/>
+        <ListPreference android:persistent="true" android:entries="@array/gest" android:title="↗" android:key="tr" android:defaultValue="6" android:entryValues="@array/gest_values"/>
+        <ListPreference android:persistent="true" android:entries="@array/gest" android:title="↙" android:key="bl" android:defaultValue="3" android:entryValues="@array/gest_values"/>
+        <ListPreference android:persistent="true" android:entries="@array/gest" android:title="↖" android:key="tl" android:defaultValue="0" android:entryValues="@array/gest_values"/>
+        <ListPreference android:persistent="true" android:entries="@array/gest" android:title="↘" android:key="br" android:defaultValue="0" android:entryValues="@array/gest_values"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/ui">
+        <ListPreference android:persistent="true" android:entries="@array/keyboard_layout_modes" android:title="@string/keyboard_layout" android:key="pref_keyboard_layout_20100902" android:defaultValue="2" android:entryValues="@array/gest_values"/>
+        <ListPreference android:persistent="true" android:entries="@array/hlcolor" android:title="@string/hlcolor" android:key="hlcolor" android:defaultValue="6" android:entryValues="@array/gest_values"/>
+        <PreferenceScreen android:title="@string/size">
+            <CheckBoxPreference android:persistent="true" android:title="@string/wide_key" android:key="wide_key" android:summary="@string/wide_key_sum" android:defaultValue="false"/>
+            <EditTextPreference android:persistent="true" android:title="@string/bgb" android:key="bgb" android:summary="@string/bgb_sum"/>
+            <ListPreference android:persistent="true" android:entries="@array/key_size" android:title="@string/prefs_key_size" android:key="key_size" android:defaultValue="100" android:entryValues="@array/key_size_values"/>
+            <ListPreference android:persistent="true" android:entries="@array/key_size" android:title="@string/prefs_key_sizeL" android:key="key_sizeL" android:defaultValue="100" android:entryValues="@array/key_size_values"/>
+            <ListPreference android:persistent="true" android:entries="@array/key_size" android:title="@string/prefs_key_font_size" android:key="key_font_size" android:defaultValue="100" android:entryValues="@array/key_size_values"/>
+            <ListPreference android:persistent="true" android:entries="@array/ss" android:title="@string/ss" android:key="ss" android:defaultValue="1" android:entryValues="@array/gest_values"/>
+        </PreferenceScreen>
+        <PreferenceCategory android:title="@string/latin">
+            <ListPreference android:persistent="true" android:entries="@array/ll" android:title="@string/ll" android:key="ll" android:summary="@string/ll_sum" android:defaultValue="0" android:entryValues="@array/ll_values"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/asp" android:key="asp" android:summary="@string/asp_sum" android:defaultValue="false"/>
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/misc">
+            <PreferenceScreen android:title="@string/split" android:summary="@string/split_sum">
+                <CheckBoxPreference android:persistent="true" android:title="@string/land" android:key="split" android:defaultValue="true"/>
+                <CheckBoxPreference android:persistent="true" android:title="@string/port" android:key="splitp" android:defaultValue="false"/>
+            </PreferenceScreen>
+            <ListPreference android:persistent="true" android:entries="@array/settings_key_modes" android:title="@string/prefs_settings_key" android:key="settings_key" android:defaultValue="@string/settings_key_mode_always_hide" android:entryValues="@array/settings_key_modes_values"/>
+            <ListPreference android:persistent="true" android:entries="@array/voice_input_modes" android:title="@string/voice_input" android:key="voice_mode" android:defaultValue="1" android:entryValues="@array/voice_input_modes_values"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/sw" android:key="sw" android:summary="@string/sw_sum" android:defaultValue="false"/>
+            <PreferenceScreen android:title="@string/fsp">
+                <ListPreference android:persistent="true" android:entries="@array/fsp" android:title="@string/land" android:key="fsp" android:defaultValue="0" android:entryValues="@array/gest_values"/>
+                <ListPreference android:persistent="true" android:entries="@array/fsp" android:title="@string/port" android:key="fsl" android:defaultValue="1" android:entryValues="@array/gest_values"/>
+            </PreferenceScreen>
+            <CheckBoxPreference android:persistent="true" android:title="@string/awk" android:key="awk" android:summary="@string/awk_sum" android:defaultValue="false"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/shd" android:key="shd" android:summary="@string/shd_sum" android:defaultValue="false"/>
+        </PreferenceCategory> &gt;\10
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/prediction_category" android:key="prediction_settings">
+        <CheckBoxPreference android:persistent="true" android:title="@string/prefs_enable_recorrection" android:key="recorrection_enabled" android:summary="@string/prefs_enable_recorrection_summary" android:defaultValue="@bool/default_recorrection_enabled"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/show_suggestions" android:key="show_suggestions" android:summary="@string/show_suggestions_summary" android:defaultValue="true"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/auto_complete" android:key="auto_complete" android:summary="@string/auto_complete_summary" android:dependency="show_suggestions" android:defaultValue="@bool/enable_autocorrect"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/bgd" android:key="bg1" android:summary="@string/bgd_sum" android:dependency="auto_complete"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/quick_fixes" android:key="quick_fixes" android:summary="@string/quick_fixes_summary" android:dependency="auto_complete" android:defaultValue="true"/>
+        <Preference android:title="@string/utext" android:key="utext" android:summary="@string/utext_sum" android:dependency="show_suggestions"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/usd" android:key="usd" android:summary="@string/usd_sum" android:dependency="show_suggestions" android:defaultValue="true"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/ots" android:key="ots" android:summary="@string/ots_sum" android:dependency="usd" android:defaultValue="false"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/lrn" android:key="lrn" android:summary="@string/lrn_sum" android:dependency="usd" android:defaultValue="false"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/auto_space" android:key="auto_space" android:dependency="show_suggestions" android:defaultValue="true"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/read_contact" android:key="read_contact" android:summary="@string/read_contact_sum" android:dependency="show_suggestions" android:defaultValue="false"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/insf" android:key="insf" android:summary="@string/insf_sum" android:dependency="show_suggestions" android:defaultValue="true"/>
+        <EditTextPreference android:persistent="true" android:title="@string/wlp" android:key="wlp" android:summary="@string/wlp_sum" android:dependency="show_suggestions"/>
+        <EditTextPreference android:persistent="true" android:title="@string/psb" android:key="psb" android:summary="@string/psb_sum" android:dependency="show_suggestions"/>
+        <EditTextPreference android:persistent="true" android:title="@string/nsa" android:key="nsa" android:summary="@string/nsa_sum"/>
+        <EditTextPreference android:persistent="true" android:title="@string/dmn" android:key="dmn" android:summary="@string/dmn_sum"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/t9c" android:summary="@string/t9c_sum">
+        <ListPreference android:persistent="true" android:entries="@array/mt9" android:title="@string/mt9" android:key="mt9" android:defaultValue="0" android:entryValues="@array/gest_values"/>
+        <EditTextPreference android:persistent="true" android:title="@string/mtt" android:key="mtt" android:summary="@string/lpt_sum"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/non_latin">
+        <CheckBoxPreference android:persistent="true" android:title="@string/kof" android:key="kof" android:summary="@string/kof_sum" android:defaultValue="false"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/ophone_arabic" android:key="ophone_arabic" android:summary="@string/ophone_arabic_summ"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/iphone_arabic" android:key="iphone_arabic" android:summary="@string/iphone_arabic_summ" android:dependency="ophone_arabic" android:defaultValue="false"/>
+        <PreferenceScreen android:title="@string/zh">
+            <CheckBoxPreference android:persistent="true" android:title="@string/pyfz" android:key="pyfzzcs" android:summary="@string/pyfzzcs" android:defaultValue="false"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/zhlx" android:key="zhlx" android:summary="@string/zhlx_sum" android:defaultValue="true"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/jl" android:key="jl" android:summary="@string/zhjl_sum" android:dependency="zhlx" android:defaultValue="false"/>
+            <CheckBoxPreference android:persistent="true" android:title="@string/zhsr" android:key="zhsr" android:summary="@string/zhsr_sum" android:defaultValue="true"/>
+        </PreferenceScreen>
+        <CheckBoxPreference android:persistent="true" android:title="@string/cjsp" android:key="cjsp" android:summary="@string/cjsp_sum" android:defaultValue="true"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/hwr">
+        <CheckBoxPreference android:persistent="true" android:title="@string/hwa" android:key="hwa" android:summary="@string/hwa_sum" android:defaultValue="true"/>
+        <EditTextPreference android:persistent="true" android:title="@string/hwt" android:key="hwt" android:summary="@string/hwt_sum" android:dependency="hwa"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/hard">
+        <CheckBoxPreference android:persistent="true" android:title="@string/vlcr" android:key="vlcr" android:summary="@string/vlcr_summ" android:defaultValue="true"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/hard" android:key="hard" android:summary="@string/hard_sum" android:defaultValue="true"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/remap" android:key="remap" android:summary="@string/remap_sum" android:defaultValue="false"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/sstl" android:key="sstl" android:summary="@string/sstl_sum" android:defaultValue="true"/>
+        <EditTextPreference android:persistent="true" android:title="@string/tlc" android:key="tlc" android:summary="@string/tlc_sum"/>
+        <EditTextPreference android:persistent="true" android:title="@string/kcs" android:key="kcs" android:summary="@string/kcs_sum"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/hsk" android:key="hsk" android:defaultValue="false"/>
+        <ListPreference android:persistent="true" android:entries="@array/hwk" android:title="@string/hwk" android:key="hwk" android:defaultValue="0" android:entryValues="@array/gest_values"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/stky" android:key="stky" android:summary="@string/stky_sum" android:defaultValue="false"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/misc">
+        <CheckBoxPreference android:persistent="true" android:title="@string/snl" android:key="snl" android:defaultValue="true"/>
+        <ListPreference android:persistent="true" android:entries="@array/nose_type" android:title="@string/nose" android:key="nose" android:defaultValue=":-)" android:entryValues="@array/nose_type"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/ws" android:key="ws" android:summary="@string/ws_summ" android:defaultValue="true"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/jbe" android:key="jbe" android:defaultValue="true"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/roST" android:key="roST" android:defaultValue="false"/>
+        <CheckBoxPreference android:persistent="true" android:title="@string/prefs_debug_mode" android:key="debug_mode" android:defaultValue="false"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/imex">
+        <PreferenceScreen android:title="@string/english_ime_settings">
+            <intent android:action="com.klye.ime.latin.imex"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/usd">
+            <intent android:action="com.klye.ime.latin.ieud"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/utext">
+            <intent android:action="com.klye.ime.latin.ieat"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/bgd">
+            <intent android:action="com.klye.ime.latin.iebg"/>
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/donate" android:summary="@string/donate_sum">
+        <intent android:action="android.intent.action.VIEW" android:data="http://multiling-kbd.appspot.com/pp.html"/>
+    </PreferenceScreen>
+</PreferenceScreen>

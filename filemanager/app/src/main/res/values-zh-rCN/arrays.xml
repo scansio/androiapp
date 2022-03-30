@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sort_by">
+        <item>类型</item>
+        <item>名称 (A - Z)</item>
+        <item>大小 (大 - 小)</item>
+        <item>日期 (新 - 旧)</item>
+    </array>
+</resources>

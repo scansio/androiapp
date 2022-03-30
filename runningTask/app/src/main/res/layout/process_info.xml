@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textStyle="bold" android:id="@+id/process_name_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/process_name_header"/>
+        <TextView android:id="@+id/process_name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textStyle="bold" android:id="@+id/package_list_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/package_list_header"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/package_list" android:paddingTop="4dp" android:paddingRight="4dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

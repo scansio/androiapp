@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="prediction_modes">
+        <item>None</item>
+        <item>Basic</item>
+        <item>Advanced</item>
+    </array>
+    <array name="voice_input_modes">
+        <item>On main keyboard</item>
+        <item>On symbols keyboard</item>
+        <item>Off</item>
+    </array>
+    <array name="voice_input_modes_summary">
+        <item>Mic on main keyboard</item>
+        <item>Mic on symbols keyboard</item>
+        <item>Voice input is disabled</item>
+    </array>
+    <array name="key_size">
+        <item>@string/sz2</item>
+        <item>@string/sz1</item>
+        <item>@string/sz5</item>
+        <item>@string/sz6</item>
+    </array>
+    <array name="fsp">
+        <item>Auto detect</item>
+        <item>Off</item>
+        <item>On</item>
+    </array>
+    <array name="lpe">
+        <item>--</item>
+        <item>Tab key</item>
+        <item>Smileys</item>
+    </array>
+    <array name="mt9">
+        <item>Switch on when suggestion is off</item>
+        <item>Off</item>
+        <item>On</item>
+    </array>
+    <array name="prediction_modes_values">
+        <item>@string/prediction_none</item>
+        <item>@string/prediction_basic</item>
+        <item>@string/prediction_full</item>
+    </array>
+    <array name="voice_input_modes_values">
+        <item>@string/voice_mode_main</item>
+        <item>@string/voice_mode_symbols</item>
+        <item>@string/voice_mode_off</item>
+    </array>
+    <array name="gest">
+        <item>--</item>
+        <item>@string/gst1</item>
+        <item>@string/gst2</item>
+        <item>@string/gst3</item>
+        <item>@string/gst4</item>
+        <item>@string/gst5</item>
+        <item>@string/gst6</item>
+        <item>@string/gst7</item>
+        <item>@string/gst8</item>
+        <item>@string/gst9</item>
+        <item>@string/gst10</item>
+        <item>@string/gst11</item>
+        <item>@string/gst12</item>
+        <item>@string/gst13</item>
+        <item>@string/gst14</item>
+        <item>@string/gst15</item>
+        <item>@string/gst16</item>
+        <item>@string/gst17</item>
+        <item>@string/swsl</item>
+        <item>À→A</item>
+        <item>@string/utext</item>
+    </array>
+    <array name="gest_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </array>
+    <array name="hlcolor">
+        <item>@string/hlc1</item>
+        <item>@string/hlc2</item>
+        <item>@string/hlc3</item>
+        <item>@string/hlc4</item>
+        <item>@string/hlc5</item>
+        <item>@string/hlc6</item>
+        <item>@string/hlc7</item>
+        <item>@string/hlc8</item>
+        <item>@string/hlc9</item>
+    </array>
+    <array name="hwk">
+        <item>@string/ld</item>
+        <item>SE Xperia Pro</item>
+        <item>HTC Vision</item>
+    </array>
+    <array name="key_size_values">
+        <item>120</item>
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+    </array>
+    <array name="keyboard_layout_modes">
+        <item>@string/layout_gingerbread</item>
+        <item>@string/layout_basic</item>
+        <item>@string/layout_bright</item>
+        <item>@string/layout_stone_bold</item>
+        <item>@string/layout_ml</item>
+        <item>@string/layout_dark</item>
+        <item>@string/layout_trans</item>
+    </array>
+    <array name="ll">
+        <item>@string/ld</item>
+        <item>QWERTY</item>
+        <item>QWERTY+</item>
+        <item>AZERTY</item>
+        <item>QWERTZ</item>
+        <item>QWERTZ+</item>
+        <item>Dvorak</item>
+        <item>Dvorak Left</item>
+        <item>Dvorak Right</item>
+        <item>Colemak</item>
+        <item>Neo</item>
+        <item>Bépo</item>
+        <item>Turkish F</item>
+    </array>
+    <array name="ll_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>9</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>5</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </array>
+    <array name="nose_type">
+        <item>:)</item>
+        <item>:-)</item>
+        <item>:^)</item>
+        <item>:o)</item>
+    </array>
+    <array name="settings_key_modes">
+        <item>@string/settings_key_mode_auto_name</item>
+        <item>@string/settings_key_mode_always_show_name</item>
+        <item>@string/settings_key_mode_always_hide_name</item>
+    </array>
+    <array name="settings_key_modes_values">
+        <item>@string/settings_key_mode_auto</item>
+        <item>@string/settings_key_mode_always_show</item>
+        <item>@string/settings_key_mode_always_hide</item>
+    </array>
+    <array name="ss">
+        <item>@string/sz5</item>
+        <item>@string/sz1</item>
+        <item>@string/sz2</item>
+        <item>@string/sz3</item>
+    </array>
+    <array name="vib">
+        <item>-</item>
+        <item>*</item>
+        <item>**</item>
+        <item>***</item>
+        <item>****</item>
+        <item>*****</item>
+    </array>
+    <array name="vib_modes_values">
+        <item>@null</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+    </array>
+</resources>

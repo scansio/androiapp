@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/start_internal_abuse" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cache_abuser_start_internal_abuse"/>
+        <Button android:id="@+id/start_slow_internal_abuse" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cache_abuser_start_slow_internal_abuse"/>
+        <Button android:id="@+id/start_external_abuse" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cache_abuser_start_external_abuse"/>
+        <Button android:id="@+id/start_slow_external_abuse" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cache_abuser_start_slow_external_abuse"/>
+        <Button android:id="@+id/stop_abuse" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cache_abuser_stop_abuse"/>
+    </LinearLayout>
+</ScrollView>

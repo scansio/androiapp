@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sort_by">
+        <item>Gosa</item>
+        <item>Maqaa (A-Z)</item>
+        <item>Hamamtaa (guddaa-xiqqaa)</item>
+        <item>Yeroo (haaraa-dulloomaa)</item>
+    </array>
+</resources>

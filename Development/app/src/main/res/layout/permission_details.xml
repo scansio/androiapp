@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/perm_name_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/perm_name_text"/>
+            <TextView android:id="@+id/perm_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/perm_desc_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/perm_desc_text"/>
+            <TextView android:id="@+id/perm_desc" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/perm_group_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/perm_group_text"/>
+            <TextView android:id="@+id/perm_group" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/perm_protection_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/perm_protection_text"/>
+            <TextView android:id="@+id/perm_protection" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/perm_source_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/perm_source_text"/>
+            <TextView android:id="@+id/perm_source" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/source_uid_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/source_uid_text"/>
+            <TextView android:id="@+id/source_uid" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/shared_pkgs_panel" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/shared_pkgs_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shared_pkgs_text"/>
+            <TextView android:id="@+id/shared_pkgs" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView android:textStyle="bold" android:id="@+id/perm_list_header" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/perm_list_header_text"/>
+        <ListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

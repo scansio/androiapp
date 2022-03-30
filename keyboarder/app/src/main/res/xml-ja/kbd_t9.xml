@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="20%p" android:keyHeight="@dimen/key_height" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="@integer/key_f1" android:keyEdgeFlags="left" android:isModifier="true"/>
+        <Key android:popupKeyboard="@xml/popup_ja" android:popupCharacters="あいうえお" android:keyLabel="あ"/>
+        <Key android:popupKeyboard="@xml/popup_ja" android:popupCharacters="かきくけこ" android:keyLabel="か"/>
+        <Key android:popupKeyboard="@xml/popup_ja" android:popupCharacters="さしすせそ" android:keyLabel="さ"/>
+        <Key android:codes="@integer/key_space" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+    </Row>
+    <Row>
+        <Key android:codes="@integer/key_left" android:keyEdgeFlags="left" android:isModifier="true" android:isRepeatable="true"/>
+        <Key android:popupKeyboard="@xml/popup_ja" android:popupCharacters="たちつてと" android:keyLabel="た"/>
+        <Key android:popupKeyboard="@xml/popup_ja" android:popupCharacters="なにぬねの" android:keyLabel="な"/>
+        <Key android:popupKeyboard="@xml/popup_ja" android:popupCharacters="はひふへほ" android:keyLabel="は"/>
+        <Key android:codes="@integer/key_right" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true"/>
+    </Row>
+    <Row>
+        <Key android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_shift" android:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key android:popupKeyboard="@xml/popup_ja" android:popupCharacters="まみむめも" android:keyLabel="ま"/>
+        <Key android:popupKeyboard="@xml/popup_ja" android:popupCharacters="や、ゆんよ" android:keyLabel="や"/>
+        <Key android:popupKeyboard="@xml/popup_ja" android:popupCharacters="らりるれろ" android:keyLabel="ら"/>
+        <Key android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:codes="-107" android:keyLabel=" 小゜゛"/>
+        <Key android:popupKeyboard="@xml/popup_ja" android:popupCharacters="わをんー " android:keyLabel="わ"/>
+        <Key android:keyLabel="."/>
+        <Key android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alternates_for_a">ä</string>
+    <string name="alternates_for_o">öõ</string>
+    <string name="alternates_for_s">š</string>
+    <string name="alternates_for_u">ü</string>
+    <string name="dollar">€</string>
+</resources>

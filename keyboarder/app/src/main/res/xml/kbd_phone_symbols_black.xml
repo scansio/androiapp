@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="26.67%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:keyEdgeFlags="left" android:keyLabel="("/>
+        <Key android:keyLabel="/"/>
+        <Key android:keyLabel=")"/>
+        <Key android:keyWidth="20%p" android:keyEdgeFlags="right" android:isModifier="true" android:keyLabel="-"/>
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyLabel="N"/>
+        <Key android:codes="44" android:keyLabel="Pause"/>
+        <Key android:keyLabel=","/>
+        <Key android:keyWidth="20%p" android:keyEdgeFlags="right" android:isModifier="true" android:keyLabel="."/>
+    </Row>
+    <Row>
+        <Key android:codes="42" android:keyEdgeFlags="left" android:keyIcon="@drawable/sym_bkeyboard_numstar"/>
+        <Key android:codes="59" android:keyLabel="Wait"/>
+        <Key android:codes="35" android:keyIcon="@drawable/sym_bkeyboard_numpound"/>
+        <Key android:keyWidth="20%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_phone_key"/>
+        <Key android:isModifier="true" android:keyLabel="+"/>
+        <Key android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:keyWidth="20%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

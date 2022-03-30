@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alternates_for_a">äá</string>
+    <string name="alternates_for_c">čć</string>
+    <string name="alternates_for_e">ěëé</string>
+    <string name="alternates_for_i">í</string>
+    <string name="alternates_for_n">ñňń</string>
+    <string name="alternates_for_o">öó</string>
+    <string name="alternates_for_r">řŕ</string>
+    <string name="alternates_for_s">šś</string>
+    <string name="alternates_for_u">úü</string>
+    <string name="dollar">€</string>
+    <string name="alternates_for_z">žź</string>
+</resources>

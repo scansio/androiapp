@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="10%p" android:keyHeight="@dimen/key_height2" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:keyEdgeFlags="left" android:keyLabel="១"/>
+        <Key android:keyLabel="២"/>
+        <Key android:keyLabel="៣"/>
+        <Key android:keyLabel="៤"/>
+        <Key android:keyLabel="៥"/>
+        <Key android:keyLabel="៦"/>
+        <Key android:keyLabel="៧"/>
+        <Key android:keyLabel="៨"/>
+        <Key android:keyLabel="៩"/>
+        <Key android:keyLabel="០"/>
+        <Key android:keyLabel="ឥ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ឲ"/>
+    </Row>‍‍\10
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyLabel="ឆ"/>
+        <Key android:keyLabel="ឹ"/>
+        <Key android:keyLabel="េ"/>
+        <Key android:keyLabel="រ"/>
+        <Key android:keyLabel="ត"/>
+        <Key android:keyLabel="យ"/>
+        <Key android:keyLabel="ុ"/>
+        <Key android:keyLabel="ិ"/>
+        <Key android:keyLabel="ោ"/>
+        <Key android:keyLabel="ផ"/>
+        <Key android:keyLabel="ៀ"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ឪ"/>
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyLabel="ា"/>
+        <Key android:keyLabel="ស"/>
+        <Key android:keyLabel="ដ"/>
+        <Key android:keyLabel="ថ"/>
+        <Key android:keyLabel="ង"/>
+        <Key android:keyLabel="ហ"/>
+        <Key android:keyLabel="្"/>
+        <Key android:keyLabel="ក"/>
+        <Key android:keyLabel="ល"/>
+        <Key android:keyLabel="ើ"/>
+        <Key android:keyLabel="់"/>
+        <Key android:keyEdgeFlags="right" android:keyLabel="ឮ"/>
+    </Row>
+    <Row>
+        <Key android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_shift" android:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key android:keyLabel="ឋ"/>
+        <Key android:keyLabel="ខ"/>
+        <Key android:keyLabel="ច"/>
+        <Key android:keyLabel="វ"/>
+        <Key android:keyLabel="ប"/>
+        <Key android:keyLabel="ន"/>
+        <Key android:keyLabel="ម"/>
+        <Key android:keyLabel="ឦ"/>
+        <Key android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:keyWidth="15%p" android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="20%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="៙៚។ៗ៘់៑៊៎៌" android:isModifier="true" android:keyLabel="់"/>
+        <Key android:keyWidth="30%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ឪឨឱឳឩឯឥឲឮៀ" android:isModifier="true" android:keyLabel="ៀ"/>
+        <Key android:keyWidth="20%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

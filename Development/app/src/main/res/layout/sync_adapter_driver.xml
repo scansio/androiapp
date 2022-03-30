@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="22dp" android:id="@+id/sync_adapters_spinner_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sync_adapters_spinner_label"/>
+        <Spinner android:id="@+id/sync_adapters_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="52dp">
+            <Button android:id="@+id/bind_button" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bind_button" android:layout_weight="2" android:onClick="initiateBind"/>
+            <Button android:id="@+id/unbind_button" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/unbind_button" android:layout_weight="2" android:onClick="initiateUnbind"/>
+        </LinearLayout>
+        <TextView android:textSize="20dp" android:id="@+id/bound_adapter_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="52dp">
+            <Button android:id="@+id/start_sync_button" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/start_sync_button" android:layout_weight="2" android:onClick="startSyncSelected"/>
+            <Button android:id="@+id/cancel_sync_button" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cancel_sync_button" android:layout_weight="2" android:onClick="cancelSync"/>
+        </LinearLayout>
+        <TextView android:id="@+id/status_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

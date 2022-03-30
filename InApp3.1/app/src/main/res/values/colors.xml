@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<color name="reddish" > #ffffe1fa</color>
+<color name="un" > #ffbbccff </color>
+<color name="k"> #ff123456</color>
+<color name="trans">#00000000</color>
+</resources>

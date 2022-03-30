@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textStyle="bold" android:id="@+id/packageView" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="4dp" android:paddingRight="4dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/icon" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@+id/classView" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/label" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/disabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/disabled"/>
+                <TextView android:id="@+id/system" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/system"/>
+                <TextView android:id="@+id/debuggable" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/debuggable"/>
+                <TextView android:id="@+id/nocode" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nocode"/>
+                <TextView android:id="@+id/persistent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/persistent"/>
+            </LinearLayout>
+            <Button android:layout_gravity="center" android:id="@+id/restart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/restart"/>
+        </LinearLayout>
+        <TextView android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/package_summary_process_label" style="@style/SummaryCategoryLayout"/>
+        <TextView android:id="@+id/process" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/package_summary_uid_label" style="@style/SummaryCategoryLayout"/>
+        <TextView android:id="@+id/uid" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/package_summary_task_label" style="@style/SummaryCategoryLayout"/>
+        <TextView android:id="@+id/task" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/package_summary_version_label" style="@style/SummaryCategoryLayout"/>
+        <TextView android:id="@+id/version" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/package_summary_source_label" style="@style/SummaryCategoryLayout"/>
+        <TextView android:id="@+id/source" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/package_summary_data_label" style="@style/SummaryCategoryLayout"/>
+        <TextView android:id="@+id/data" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:id="@+id/activities" style="@style/SummaryCategoryLayout">
+            <TextView android:text="@string/package_summary_activities_label" style="@style/SummaryCategoryHeader"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/receivers" style="@style/SummaryCategoryLayout">
+            <TextView android:text="@string/package_summary_receivers_label" style="@style/SummaryCategoryHeader"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/services" style="@style/SummaryCategoryLayout">
+            <TextView android:text="@string/package_summary_services_label" style="@style/SummaryCategoryHeader"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/providers" style="@style/SummaryCategoryLayout">
+            <TextView android:text="@string/package_summary_providers_label" style="@style/SummaryCategoryHeader"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/instrumentation" style="@style/SummaryCategoryLayout">
+            <TextView android:text="@string/package_summary_instrumentation_label" style="@style/SummaryCategoryHeader"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

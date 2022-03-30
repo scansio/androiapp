@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="prediction_modes">
+        <item>Aucun</item>
+        <item>Simple</item>
+        <item>Avancé</item>
+    </array>
+    <array name="voice_input_modes">
+        <item>Sur le clavier principal</item>
+        <item>Sur le clavier des symboles</item>
+        <item>Désactivée</item>
+    </array>
+    <array name="voice_input_modes_summary">
+        <item>Micro sur le clavier principal</item>
+        <item>Micro sur le clavier des symboles</item>
+        <item>Saisie vocale désactivée</item>
+    </array>
+</resources>

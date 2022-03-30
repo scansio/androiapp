@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="20%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="27" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="Esc"/>
+        <Key android:codes="-110" android:keyLabel="Paste"/>
+        <Key android:codes="19" android:isRepeatable="true"/>
+        <Key android:codes="-108" android:keyLabel="Copy"/>
+        <Key android:codes="-99" android:keyEdgeFlags="right" android:isModifier="true" android:keyLabel="Del."/>
+    </Row>
+    <Row>
+        <Key android:codes="@integer/key_tab" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_tab" android:keyIcon="@drawable/sym_keyboard_tab"/>
+        <Key android:codes="@integer/key_left" android:isRepeatable="true"/>
+        <Key android:codes="-111" android:keyLabel="All"/>
+        <Key android:codes="@integer/key_right" android:isRepeatable="true"/>
+        <Key android:codes="-109" android:keyEdgeFlags="right" android:isModifier="true" android:keyLabel="Cut"/>
+    </Row>
+    <Row>
+        <Key android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_shift" android:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key android:codes="3" android:keyLabel="Home"/>
+        <Key android:codes="20" android:isRepeatable="true"/>
+        <Key android:codes="6" android:keyLabel="End"/>
+        <Key android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="17%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_alpha_key"/>
+        <Key android:keyWidth="13%p" android:codes="@integer/key_f1" android:isModifier="true"/>
+        <Key android:keyWidth="40%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:keyWidth="13%p" android:isModifier="true" android:keyLabel="."/>
+        <Key android:keyWidth="17%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

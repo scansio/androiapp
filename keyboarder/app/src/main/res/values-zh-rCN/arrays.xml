@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="prediction_modes">
+        <item>无</item>
+        <item>基本模式</item>
+        <item>高级</item>
+    </array>
+    <array name="voice_input_modes">
+        <item>主键盘上</item>
+        <item>符号键盘上</item>
+        <item>关</item>
+    </array>
+    <array name="voice_input_modes_summary">
+        <item>主键盘上的麦克风</item>
+        <item>符号键盘上的麦克风</item>
+        <item>已停用语音输入</item>
+    </array>
+    <array name="key_size">
+        <item>大</item>
+        <item>中</item>
+        <item>小</item>
+        <item>超小</item>
+    </array>
+    <array name="vib_modes">
+        <item>--</item>
+        <item>轻</item>
+        <item>中</item>
+        <item>重</item>
+    </array>
+    <array name="lpe">
+        <item>--</item>
+        <item>Tab键</item>
+        <item>表情</item>
+    </array>
+</resources>

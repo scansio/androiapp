@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="20%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0px" android:verticalGap="0px">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="-128" android:keyIcon="@android:drawable/ic_menu_info_details"/>
+        <Key android:codes="-126" android:keyIcon="@android:drawable/ic_menu_share"/>
+        <Key android:codes="-129" android:keyLabel="Trans"/>
+        <Key android:codes="-119" android:keyLabel=" "/>
+    </Row>
+    <Row>
+        <Key android:codes="-120" android:keyLabel="À→A"/>
+        <Key android:codes="-122" android:keyIcon="@drawable/pen"/>
+        <Key android:codes="-102" android:keyIcon="@drawable/sym_keyboard_mic"/>
+        <Key android:codes="-130" android:keyLabel="New Ver."/>
+    </Row>
+    <Row>
+        <Key android:codes="-114" android:keyIcon="@drawable/e105"/>
+        <Key android:codes="-115" android:keyLabel="♥☎★"/>
+        <Key android:codes="-113" android:keyLabel=":-)"/>
+        <Key android:codes="@integer/key_cancel" android:keyLabel="exit"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-118" android:keyLabel="◀▲▶"/>
+        <Key android:codes="-117" android:keyLabel="123"/>
+        <Key android:codes="-124" android:keyIcon="@drawable/kbdm"/>
+        <Key android:codes="@integer/key_settings" android:keyIcon="@drawable/sym_keyboard_settings"/>
+    </Row>
+</Keyboard>

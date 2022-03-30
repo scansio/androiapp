@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/accounts_tester_remove_account" android:title="@string/accounts_tester_remove_account"/>
+    <item android:id="@+id/accounts_tester_get_auth_token" android:title="@string/accounts_tester_get_auth_token"/>
+    <item android:id="@+id/accounts_tester_test_has_features" android:title="@string/accounts_tester_test_has_features"/>
+    <item android:id="@+id/accounts_tester_clear_password" android:title="@string/accounts_tester_clear_password"/>
+    <item android:id="@+id/accounts_tester_invalidate_auth_token" android:title="@string/accounts_tester_invalidate_auth_token"/>
+    <item android:id="@+id/accounts_tester_update_credentials" android:title="@string/accounts_tester_update_credentials"/>
+    <item android:id="@+id/accounts_tester_confirm_credentials" android:title="@string/accounts_tester_confirm_credentials"/>
+</menu>

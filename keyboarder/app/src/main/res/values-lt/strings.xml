@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alternates_for_a">ą</string>
+    <string name="alternates_for_c">č</string>
+    <string name="alternates_for_e">ęė</string>
+    <string name="alternates_for_i">į</string>
+    <string name="alternates_for_s">š</string>
+    <string name="alternates_for_u">ųū</string>
+    <string name="alternates_for_z">ž</string>
+</resources>

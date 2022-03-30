@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="114" android:versionName="1.1.7" android:installLocation="internalOnly" android:hardwareAccelerated="true" coreApp="true" package="com.klye.ime.latin" platformBuildVersionCode="19" platformBuildVersionName="4.4.2-1456859">
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="7"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <application android:label="@string/english_ime_name" android:icon="@drawable/ic_application" android:killAfterRestore="false">
+        <service android:label="@string/english_ime_name" android:name="com.klye.ime.latin.LatinIME" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+        </service>
+        <activity android:label="@string/english_ime_settings" android:name="com.klye.ime.latin.LatinIMESettings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/trans" android:name="com.klye.ime.latin.T" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/english_ime_name" android:name="com.klye.ime.latin.M" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/language_selection_title" android:name="com.klye.ime.latin.InputLanguageSelection">
+            <intent-filter>
+                <action android:name="com.klye.ime.latin.INPUT_LANGUAGE_SELECTION"/>
+                <action android:name="com.klye.ime.latin.imex1"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/imex" android:name="com.klye.ime.latin.IESet">
+            <intent-filter>
+                <action android:name="com.klye.ime.latin.imex"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/imex" android:name="com.klye.ime.latin.IEUD">
+            <intent-filter>
+                <action android:name="com.klye.ime.latin.ieud"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/imex" android:name="com.klye.ime.latin.IEAT">
+            <intent-filter>
+                <action android:name="com.klye.ime.latin.ieat"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/imex" android:name="com.klye.ime.latin.IEBG">
+            <intent-filter>
+                <action android:name="com.klye.ime.latin.iebg"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

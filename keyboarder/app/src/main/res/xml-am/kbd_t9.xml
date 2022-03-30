@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="10%p" android:keyHeight="@dimen/key_height2" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:rowEdgeFlags="top">
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ሁሂሃሄህሆ" android:keyEdgeFlags="left" android:keyLabel="ሀ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ሉሊላሌልሎሏ" android:keyLabel="ለ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ሑሒሓሔሕሖሗ" android:keyLabel="ሐ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ሙሚማሜምሞሟፙ" android:keyLabel="መ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ሡሢሣሤሥሦሧ" android:keyLabel="ሠ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ሩሪራሬርሮሯፘ" android:keyLabel="ረ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ሱሲሳሴስሶሷ" android:keyLabel="ሰ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ሹሺሻሼሽሾ" android:keyLabel="ሸ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ቁቂቃቄቅቆቋቈቊቋቌቍ" android:keyLabel="ቀ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ቡቢባቤብቦቧ" android:keyEdgeFlags="right" android:keyLabel="በ"/>
+    </Row>
+    <Row>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ቱቲታቴትቶቷ" android:keyEdgeFlags="left" android:keyLabel="ተ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ቹቺቻቼችቾ" android:keyLabel="ቸ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ኁኂኃኄኅኆኋኈኊኋኌኍ" android:keyLabel="ኀ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ኑኒናኔንኖኗ" android:keyLabel="ነ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ኙኚኛኜኝኞ" android:keyLabel="ኘ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ኡኢኣኤእኦኧ" android:keyLabel="አ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ኩኪካኬክኮኳኰኲኳኴኵ" android:keyLabel="ከ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ኹኺኻኼኽኾ" android:keyLabel="ኸ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ዉዊዋዌውዎ" android:keyLabel="ወ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ዑዒዓዔዕዖ" android:keyEdgeFlags="right" android:keyLabel="ዐ"/>
+    </Row>
+    <Row>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ዙዚዛዜዝዞዟ" android:keyEdgeFlags="left" android:keyLabel="ዘ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ዡዢዣዤዥዦ" android:keyLabel="ዠ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ዩዪያዬይዮ" android:keyLabel="የ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ዱዲዳዴድዶዷ" android:keyLabel="ደ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ጁጂጃጄጅጆ" android:keyLabel="ጀ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ጉጊጋጌግጎጓጐጒጓጔጕ" android:keyLabel="ገ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ጡጢጣጤጥጦጧ" android:keyLabel="ጠ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ጩጪጫጬጭጮ" android:keyLabel="ጨ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ጱጲጳጴጵጶጷ" android:keyLabel="ጰ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ጹጺጻጼጽጾጿ" android:keyEdgeFlags="right" android:keyLabel="ጸ"/>
+    </Row>
+    <Row>
+        <Key android:keyWidth="15%p" android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_shift" android:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ፁፂፃፄፅፆ" android:keyLabel="ፀ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ፉፊፋፌፍፎፏፚ" android:keyLabel="ፈ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ፑፒፓፔፕፖፗ" android:keyLabel="ፐ"/>
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ቩቪቫቬቭቮ" android:keyLabel="ቨ"/>
+        <Key android:keyLabel="፡"/>
+        <Key android:keyLabel="።"/>
+        <Key android:keyLabel="፧"/>
+        <Key android:keyWidth="15%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="18%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:keyWidth="13%p" android:codes="@integer/key_f1" android:isModifier="true"/>
+        <Key android:keyWidth="38.5%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:keyWidth="13%p" android:isModifier="true" android:keyLabel="."/>
+        <Key android:keyWidth="18%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

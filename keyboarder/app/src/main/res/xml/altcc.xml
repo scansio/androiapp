@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="0.5in" android:keyHeight="@dimen/key_height" android:horizontalGap="0px" android:verticalGap="0px">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="-6" android:keyLabel="Alt"/>
+        <Key android:codes="27" android:keyLabel="Esc"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-8" android:keyLabel="Caps Lock"/>
+        <Key android:codes="-7" android:keyLabel="Ctrl"/>
+    </Row>
+</Keyboard>

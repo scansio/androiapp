@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:latin="http://schemas.android.com/apk/res-auto" android:keyWidth="10%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0px" android:verticalGap="@dimen/key_bottom_gap">
+    <Row android:keyWidth="20%p" android:rowEdgeFlags="top">
+        <Key android:codes="49" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="qw1" android:keyEdgeFlags="left" android:keyLabel="q  w"/>
+        <Key android:codes="50" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="er2" android:keyLabel="e  r"/>
+        <Key android:codes="51" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ty3" android:keyLabel="t  y"/>
+        <Key android:codes="52" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ui4" android:keyLabel="u  i"/>
+        <Key android:codes="53" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="op5" android:keyEdgeFlags="right" android:keyLabel="o  p"/>
+    </Row>
+    <Row android:keyWidth="20%p">
+        <Key android:codes="54" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="as6" android:keyEdgeFlags="left" android:keyLabel="a  s"/>
+        <Key android:codes="55" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="df7" android:keyLabel="d  f"/>
+        <Key android:codes="56" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="gh8" android:keyLabel="g  h"/>
+        <Key android:codes="57" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="jk9" android:keyLabel="j  k"/>
+        <Key android:codes="48" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="lm0" android:keyEdgeFlags="right" android:keyLabel="l  m"/>
+    </Row>
+    <Row android:keyWidth="20%p">
+        <Key android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_shift" android:keyIcon="@drawable/sym_keyboard_shift"/>
+        <Key android:codes="42" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="zx*" android:keyLabel="z  x"/>
+        <Key android:codes="45" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="cv-" android:keyLabel="c  v"/>
+        <Key android:codes="43" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="bn+" android:keyLabel="b  n"/>
+        <Key android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sdel" android:keyIcon="@drawable/sdel"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="18%p" android:codes="@integer/key_symbol" android:popupKeyboard="@xml/popup_modes" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key"/>
+        <Key android:keyWidth="13%p" android:codes="@integer/key_f1" android:isModifier="true"/>
+        <Key android:keyWidth="38%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_space" android:keyIcon="@drawable/sym_keyboard_space"/>
+        <Key android:keyWidth="13%p" android:isModifier="true" android:keyLabel="."/>
+        <Key android:keyWidth="18%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_return" android:keyIcon="@drawable/sym_keyboard_return"/>
+    </Row>
+</Keyboard>

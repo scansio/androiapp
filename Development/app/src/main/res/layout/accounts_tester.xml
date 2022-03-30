@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/accounts_tester_account_types_spinner_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accounts_tester_select_account_type"/>
+        <Spinner android:id="@+id/accounts_tester_account_types_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/accounts_tester_get_accounts_by_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accounts_tester_get_accounts_by_type"/>
+        <Button android:id="@+id/accounts_tester_get_all_accounts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accounts_tester_get_all_accounts"/>
+        <Button android:id="@+id/accounts_tester_get_auth_token_by_type_and_feature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accounts_tester_get_auth_token_by_type_and_feature"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/accounts_tester_add_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accounts_tester_add_account"/>
+        <Button android:id="@+id/accounts_tester_edit_properties" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accounts_tester_edit_properties"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/accounts_tester_desiredFeatures" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accounts_tester_desired_features_label"/>
+        <EditText android:id="@+id/accounts_tester_desired_features" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minEms="15"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/accounts_tester_desiredFeatures" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accounts_tester_desired_authtokentype_label"/>
+        <EditText android:id="@+id/accounts_tester_desired_authtokentype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minEms="15"/>
+    </LinearLayout>
+    <ListView android:id="@+id/accounts_tester_accounts_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

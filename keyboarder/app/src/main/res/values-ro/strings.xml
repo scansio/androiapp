@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alternates_for_a">ăâ</string>
+    <string name="alternates_for_i">î</string>
+    <string name="alternates_for_s">ş</string>
+    <string name="alternates_for_t">ţ</string>
+</resources>

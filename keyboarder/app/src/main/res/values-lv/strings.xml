@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alternates_for_a">ā</string>
+    <string name="alternates_for_c">č</string>
+    <string name="alternates_for_e">ē</string>
+    <string name="alternates_for_i">ī</string>
+    <string name="alternates_for_n">ņ</string>
+    <string name="alternates_for_s">š</string>
+    <string name="alternates_for_u">ū</string>
+    <string name="alternates_for_z">ž</string>
+    <string name="alternates_for_g">ģ</string>
+</resources>

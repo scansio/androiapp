@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sort_by">
+        <item>النوع</item>
+        <item>الاسم (أ-ي)</item>
+        <item>الحجم ( كبير- صغير)</item>
+        <item>الوقت (جديد- قديم)</item>
+    </array>
+</resources>
